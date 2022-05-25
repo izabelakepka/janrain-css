@@ -1,0 +1,129 @@
+@font-face {
+  font-family: hostedLoginFont;
+  src: url(../css/font/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+* {
+  font-family: hostedLoginFont;
+}
+* a {
+  color: #5f96d0;
+  font-weight: 700;
+  text-decoration: none;
+}
+.screen-heading {
+  color: black;
+}
+#main-container {
+  background: #083493;
+}
+#content-wrapper {
+  border-radius: 20px;
+}
+.screen > .content-wrapper {
+  padding: 25px 100px 0;
+  margin-bottom: 0px;
+}
+#content-container hr {
+  border: solid 1px #C1C1C1;
+  border-bottom: none;
+}
+.social-signin {
+  margin-bottom: 20px;
+}
+.alternate-credentials {
+  color: #C1C1C1;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -28px;
+  display: table;
+  margin: -28px auto;
+  background: white;
+  padding: 0 5px;
+}
+#logo-wrapper {
+  background-size: 100% ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../css/img/logo.png");
+}
+#logo-wrapper img {
+  visibility: hidden;
+}
+#header-container {
+  border-bottom: none;
+}
+.capture_form {
+  margin-top: 70px;
+}
+.capture_form_item {
+  position: relative;
+  margin-top: 10px;
+}
+.capture_form_item label {
+  transition: all 0.5s 0s ease;
+  color: #C1C1C1;
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  font-weight: normal;
+  font-size: 18px;
+}
+.capture_form_item.capture_focused label,
+.capture_form_item.capture_error label,
+.capture_form_item.capture_validated label {
+  font-size: 10px;
+  top: -10px;
+}
+.capture_text_input {
+  border-width: 0px;
+  border-bottom: solid #C1C1C1 1px;
+  font-size: 18px;
+}
+.form-action-buttons {
+  position: relative;
+  padding-top: 30px;
+}
+.form-action-buttons button:only-of-type {
+  border-radius: 20px;
+  background: #083493;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.forgot-password-link {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: block;
+  text-align: right;
+  font-weight: bold;
+}
+.social-login-buttons > ul > li {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  height: 100px;
+}
+.social-login-buttons .social-provider {
+  margin: 5px 0;
+  padding: 0;
+  background: none !important;
+  border: none;
+  height: 100%;
+}
+.social-login-buttons .social-provider > span {
+  text-align: center;
+}
+.social-login-buttons .social-provider-icon {
+  background-size: 100%;
+  background-position: center;
+  margin-right: 0;
+}
+.social-login-buttons .provider-name {
+  display: none;
+}
+.traditional-signin {
+  margin-top: 30px;
+}
