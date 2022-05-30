@@ -48,6 +48,7 @@
 }
 #logo-wrapper img {
   visibility: hidden;
+  height: 60px;
 }
 #header-container {
   border-bottom: none;
