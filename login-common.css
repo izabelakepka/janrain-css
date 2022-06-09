@@ -53,6 +53,7 @@
 }
 #header-container {
   border-bottom: none;
+  height: 100vh;
 }
 .capture_form {
   margin-top: 70px;
