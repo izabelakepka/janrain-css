@@ -49,6 +49,7 @@
 }
 #logo-wrapper img {
   height: 60px;
+  visibility: visible;
 }
 #header-container {
   border-bottom: none;
