@@ -1,6 +1,6 @@
 @font-face {
   font-family: hostedLoginFont;
-  src: url(../css/font/Nunito_Sans/NunitoSans-Regular.ttf);
+  src: url(https://github.com/izabelakepka/janrain-css/tree/main/font/Nunito_Sans/NunitoSans-Regular.ttf);
 }
 * {
   font-family: hostedLoginFont;
