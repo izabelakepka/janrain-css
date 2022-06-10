@@ -131,6 +131,17 @@
 }
 #capture_resetPasswordRequest_resetPasswordRequestForm {
   margin-top: 20px;
+  height: 40px !important;
+}
+#capture_traditionalRegistration_form_item_globalOpt_optStatus #capture_traditionalRegistration_globalOpt_optStatus {
+  width: 15px;
+  height: 15px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+#capture_traditionalRegistration_form_item_globalOpt_optStatus #capture_traditionalRegistration_globalOpt_optStatus:checked {
+  filter: invert(100%) hue-rotate(18deg) brightness(0);
+  opacity: 0.5;
 }
 #capture_resetPasswordRequest_resetPasswordRequestForm .form-action-buttons {
   padding: 0;
