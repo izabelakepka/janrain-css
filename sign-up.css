@@ -28,9 +28,6 @@
   border: solid 1px #C1C1C1;
   border-bottom: none;
 }
-.social-signin {
-  margin-bottom: 20px;
-}
 .alternate-credentials {
   color: #C1C1C1;
   font-weight: bold;
@@ -133,7 +130,7 @@
   margin: 0;
 }
 #capture_traditionalRegistration_form_item_globalOpt_optStatus {
-  height: 40px;
+  height: 40px !important;
 }
 #capture_traditionalRegistration_form_item_globalOpt_optStatus #capture_traditionalRegistration_globalOpt_optStatus {
   width: 15px;
