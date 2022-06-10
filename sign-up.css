@@ -52,7 +52,7 @@
   border-bottom: none;
 }
 .capture_form {
-  margin-top: 70px;
+  margin-top: 10px !important;
 }
 .capture_form_item {
   position: relative;
