@@ -129,9 +129,10 @@
 #capture_traditionalRegistration_traditionalRegistrationForm {
   margin: 0;
 }
-#capture_traditionalRegistration_form_item_globalOpt_optStatus {
+.capture_form_item_globalOpt_optStatus, #capture_traditionalRegistration_form_item_globalOpt_optStatus {
   height: 40px !important;
 }
+
 #capture_traditionalRegistration_form_item_globalOpt_optStatus #capture_traditionalRegistration_globalOpt_optStatus {
   width: 15px;
   height: 15px;
